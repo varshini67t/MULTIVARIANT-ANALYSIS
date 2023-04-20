@@ -24,3 +24,25 @@ Analyse Box plot
 # STEP 6
 Analyse HeatMap
 
+# CODE
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot  as plt
+df=pd.read_csv("/content/SuperStore.csv")
+df.head()   
+
+sns.scatterplot(x=df['Sales'],y=df['Sub-Category'])
+
+sns.boxplot(x="Sales",y="Sub-Category", data=df)
+
+sns.barplot(x=df["Sales"],y=df["Sub-Category"],data=df)
+
+sns.barplot(x=df['Region'],y=df['Sales'],hue=df['Category'])
+
+df.corr()
+
+sns.heatmap(df.corr(),annot=True)
+
+# RESULT
+Thus we have performed statistical analysis using multivariant analysis.
