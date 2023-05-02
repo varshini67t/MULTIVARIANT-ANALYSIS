@@ -44,5 +44,14 @@ df.corr()
 
 sns.heatmap(df.corr(),annot=True)
 
+# OUTPUT
+![image](https://user-images.githubusercontent.com/107982953/235744009-a809811d-6a3a-4a98-9ff8-43b4dbb41205.png)
+![image](https://user-images.githubusercontent.com/107982953/235744074-f84deaa9-6302-4bec-8939-45f1883a8c89.png)
+![image](https://user-images.githubusercontent.com/107982953/235744129-6eae6703-0cf1-403a-a387-e25832662e2a.png)
+![image](https://user-images.githubusercontent.com/107982953/235744191-ef7f03ad-8fe2-4bc2-bddd-b08feab7a89c.png)
+![image](https://user-images.githubusercontent.com/107982953/235744258-a210fd9b-a5ed-4917-aa3f-185ec7d8c896.png)
+![image](https://user-images.githubusercontent.com/107982953/235744322-b92dd1a0-1005-4aa3-b86c-7a918a1a5da6.png)
+![image](https://user-images.githubusercontent.com/107982953/235744391-8d807eab-47c9-443e-9766-fecf893b4666.png)
+
 # RESULT
 Thus we have performed statistical analysis using multivariant analysis.
